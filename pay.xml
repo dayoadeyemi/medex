@@ -1,0 +1,10 @@
+<request type="receipt-in" timestamp="{{timestamp}}">
+	<merchantid>{{merchantid}}</merchantid>
+	<orderid>{{orderid}}</orderid>
+	<account>internet</account>
+	<amount currency="{{currency}}">{{amount}}</amount>
+	<payerref>{{payerref}}</payerref>
+	<paymentmethod>{{pmtref}}</paymentmethod>
+	<autosettle flag="1" />
+	<sha1hash>{{hash}}</sha1hash>
+</request>
